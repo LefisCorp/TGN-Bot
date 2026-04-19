@@ -67,33 +67,27 @@ npm install
 
 The project depends on `discord.js`, `better-sqlite3`, `dotenv`, and `node-schedule`.[cite:2]
 
-### 2. Create a `.env` file
+## Add the bot to a server
 
-```env
-DISCORD_TOKEN=your_bot_token
-CLIENT_ID=your_application_client_id
-GUILD_ID=your_test_server_id
-```
+To use TGN-Bot in a Discord server:
 
-These values are used directly by the bot and the slash-command registration script.[cite:3]
-
-### 3. Register slash commands
+1. Create a Discord application and add a bot user in the Discord Developer Portal.
+2. Open the included `.env` file and replace the placeholder values with your own:
+   - `DISCORD_TOKEN` with your bot token.
+   - `CLIENT_ID` with your application client ID.
+   - `GUILD_ID` with your server ID.
+3. Run the command registration script.
+4. Invite the bot to your server using the OAuth2 URL from the Discord Developer Portal.
+5. Start the bot.
 
 ```bash
 node register-commands.js
-```
-
-The bot uses guild command registration, which is useful because updates usually appear faster in a specific server.[cite:3]
-
-### 4. Start the bot
-
-```bash
 npm start
 ```
 
-The package start script runs `node bot.js`.[cite:2]
+Once the bot is online, you can use the slash commands in your server and configure the alert channels with the setup commands.
 
-## Uploading to a server
+## Uploading to a host
 
 TGN-Bot is a normal Node.js app, so it can be uploaded to a VPS, a Linux server, or a cloud platform that supports long-running Node processes.[cite:2][cite:3]
 
