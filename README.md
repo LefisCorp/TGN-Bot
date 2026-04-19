@@ -7,13 +7,16 @@ It runs on Node.js, uses Discord slash commands, stores bot data in SQLite throu
 ## Features
 
 - Claim a Tibia character and link visible public account characters with `/claim`.[cite:3]
+- Claiming a character links that character and all other visible characters from the same account.[cite:3]
 - Manually link extra characters with `/linkalt`.[cite:3]
+- Linked characters can be removed individually at any time using /unlink or /unlinkall.[cite:3]
 - View linked characters with `/mychars`.[cite:3]
 - Check online status with `/online`.[cite:3]
 - Read the latest Tibia news with `/latestnews`.[cite:3]
 - Look up monsters with `/monster`.[cite:3]
 - Show leaderboards for levels, deaths, and online time with `/leaderboard`.[cite:3]
 - Configure channels for alerts and scheduled posts with dedicated slash commands.[cite:3]
+- All features work across any game world, meaning all characters on an account can take part in leaderboards.[cite:3]
 
 ## Stack
 
