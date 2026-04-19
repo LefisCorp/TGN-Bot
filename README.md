@@ -159,7 +159,9 @@ That means if you move to a new server, you should also copy the `tibia_bot.db` 
 
 ## Timing notes
 
-Leaderboard playtime is approximate. TibiaData caches character data for up to 300 seconds, and world status can take up to 60 seconds to refresh, so online/offline changes may appear with a short delay.
+Leaderboard playtime is approximate and may be out by around 2 minutes due to TibiaData update delays and the bot’s scheduled checks.
+
+TibiaData caches character data for up to 300 seconds, and world status can take up to 60 seconds to refresh, so online/offline changes may appear with a short delay.
 
 The bot checks character progress every 10 minutes, checks online status every 60 seconds, checks Tibia news every 24 hours, and posts weekly leaderboards every Monday at 12:00 PM Europe/London.
 
