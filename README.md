@@ -1,17 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# rename to README and remove the perplexity logo
-
-```markdown
-<div align="center">
-
-![TGN Bot Banner](https://via.placeholder.com/1200x300/1e3a8a/ffffff?text=TGN-Bot+-+Tibia+Discord+Bot)
-
-[![Node.js](https://img.shields.io/badge/Node.js-v20-green?style=for-the-badge&logo=node.js)](https://nodejs.org)
-[![Discord.js](https://img.shields.io/badge/discord.js-v14-blue?style=for-the-badge&logo=discord)](https://discord.js.org)
-[![License](https://img.shields.io/badge/License-Non--Commercial-brightgreen?style=for-the-badge)](LICENSE)
-
-</div>
 
 # TGN-Bot
 
