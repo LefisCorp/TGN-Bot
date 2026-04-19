@@ -157,6 +157,12 @@ The bot uses a local SQLite database named `tibia_bot.db`.[cite:1]
 
 That means if you move to a new server, you should also copy the `tibia_bot.db` file if you want to keep your saved users, linked characters, settings, and stored news data.[cite:1]
 
+## Timing notes
+
+Leaderboard playtime is approximate. TibiaData caches character data for up to 300 seconds, and world status can take up to 60 seconds to refresh, so online/offline changes may appear with a short delay.
+
+The bot checks character progress every 10 minutes, checks online status every 60 seconds, checks Tibia news every 24 hours, and posts weekly leaderboards every Monday at 12:00 PM Europe/London.
+
 ## Troubleshooting
 
 - If slash commands do not appear, rerun `node register-commands.js` and make sure `CLIENT_ID` and `GUILD_ID` are correct.[cite:3]
