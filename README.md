@@ -69,6 +69,18 @@ npm install
 
 The project depends on `discord.js`, `better-sqlite3`, `dotenv`, and `node-schedule`.[cite:2]
 
+## Permissions
+
+TGN-Bot does not need Administrator access. The minimum useful permissions are:
+
+- View Channels.
+- Send Messages.
+- Embed Links.
+- Read Message History.
+- Use Application Commands.
+
+This bot utilises a member cleanup feature, so it also needs the Server Members Intent enabled in the Discord Developer Portal. Channel-specific permissions can still override server-wide settings, so if a command or alert does not work in one channel, check that channel’s overrides as well.
+
 ## Add the bot to a server
 
 To use TGN-Bot in a Discord server:
