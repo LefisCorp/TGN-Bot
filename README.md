@@ -6,10 +6,9 @@ It runs on Node.js, uses Discord slash commands, stores bot data in SQLite throu
 
 ## Features
 
-- Claim a Tibia character and link visible public account characters with `/claim`.[cite:3]
-- Claiming a character links that character and all other visible characters from the same account.[cite:3]
+- Claim a Tibia character and automatically link all visible public characters from that same account with /claim.
 - Manually link extra characters with `/linkalt`.[cite:3]
-- Linked characters can be removed individually at any time using /unlink or /unlinkall.[cite:3]
+- Remove individual linked characters with /unlink or clear everything with /unlinkall.
 - View linked characters with `/mychars`.[cite:3]
 - Check online status with `/online`.[cite:3]
 - Read the latest Tibia news with `/latestnews`.[cite:3]
