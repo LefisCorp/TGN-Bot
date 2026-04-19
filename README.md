@@ -159,7 +159,7 @@ That means if you move to a new server, you should also copy the `tibia_bot.db` 
 
 ## Timing notes
 
-Leaderboard playtime is approximate and may be out by around 2 minutes due to TibiaData update delays and the bot’s scheduled checks.
+Leaderboard playtime is approximate and may be out by around 2 minutes per session because TibiaData update delays and the bot’s scheduled checks can cause online/offline changes to appear slightly later than they happen.
 
 TibiaData caches character data for up to 300 seconds, and world status can take up to 60 seconds to refresh, so online/offline changes may appear with a short delay.
 
