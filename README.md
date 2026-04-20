@@ -1,4 +1,4 @@
-# 🛡️ Tibia Community Discord Bot
+# 🛡️ Tibia Game Nights Bot (TGN-Bot)
 
 A high-performance Discord bot for Tibia progression tracking, death alerts, and community leaderboards.
 
