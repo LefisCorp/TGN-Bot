@@ -233,7 +233,9 @@ async function checkDeaths(client) {
           if (msg) ['💀', '🇫'].forEach(e => msg.react(e).catch(() => null));
           stmts.updateDeath.run(deathTime, ch.name);
         }
-      } catch (e) { }
+      } catch (error) {
+        console.error(`Death check failed for ${ch.name}:`, error);
+      }
     }));
     await new Promise(r => setTimeout(r, 2000));
   }
@@ -252,7 +254,7 @@ async function checkNews(client) {
         stmts.insertNews.run(String(item.id), newsTitle, item.date || new Date().toISOString());
       }
     }
-  } catch (e) { console.log('News check failed'); }
+  } catch (error) { console.error('News check failed:', error); }
 }
 
 async function postDailySummary(client) {

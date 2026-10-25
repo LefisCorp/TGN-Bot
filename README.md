@@ -68,6 +68,7 @@ Due to the sync times of the **TibiaData API** and the bot's internal tracking c
 * **World Sync**: Occurs every 2 minutes.
 * **Death Checks**: Occurs every 10 minutes (to ensure API stability).
 * **API Caching**: Character data is often cached by the API for several minutes.
+* **TibiaData API**: The bot uses API v5. Missing resources return `404` and are treated as not found; other HTTP errors are surfaced as API failures.
 
 ---
 
